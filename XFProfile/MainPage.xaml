@@ -9,7 +9,7 @@
     <Grid BackgroundColor="White" RowDefinitions="*,Auto" RowSpacing="0">
 
         <!-- 1. Profile picture-->
-        <Image Grid.Row="0" Grid.RowSpan="2" Source="Messi.png" VerticalOptions="Start" />
+        <Image Grid.Row="0" Grid.RowSpan="2" Source="Mess.png" VerticalOptions="Start" />
 
         <Grid Grid.Row="1" BackgroundColor="Transparent" RowDefinitions="28,*" RowSpacing="0">
 
@@ -90,14 +90,14 @@
                     Style="{StaticResource stlContactBtn}"
                     HorizontalOptions="End"
                     VerticalOptions="Start"
-                    ImageSource="Phone"
+                    ImageSource="twitter"
                     Clicked="PhoneClicked" />
                 
                 <Button
                     Style="{StaticResource stlContactBtn}"
                     HorizontalOptions="Start"
                     VerticalOptions="Start"
-                    ImageSource="Correo"
+                    ImageSource="instagram"
                     Clicked="MailClicked" />
                 
             </StackLayout>
